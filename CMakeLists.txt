@@ -90,7 +90,6 @@ find_package(visualization_msgs REQUIRED)
 find_package(pcl_ros REQUIRED)
 find_package(pcl_conversions REQUIRED)
 find_package(tf2_ros REQUIRED)
-find_package(livox_ros_driver2 REQUIRED)
 find_package(vikit_common REQUIRED)
 find_package(vikit_ros REQUIRED)
 find_package(cv_bridge REQUIRED)
@@ -126,7 +125,6 @@ set(dependencies
   pcl_ros
   pcl_conversions
   tf2_ros
-  livox_ros_driver2
 )
 
 set(COMMON_DEPENDENCIES OpenMP::OpenMP_CXX)
@@ -203,7 +201,6 @@ ament_export_dependencies(
   pcl_ros
   pcl_conversions
   tf2_ros
-  livox_ros_driver2
   Eigen3
   PCL
   OpenCV 
