@@ -99,6 +99,7 @@ find_package(PCL REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(Sophus REQUIRED)
 find_package(Boost REQUIRED COMPONENTS thread)
+find_package(zwind_msg REQUIRED)
 
 # Include directories for dependencies
 include_directories(
@@ -125,6 +126,7 @@ set(dependencies
   pcl_ros
   pcl_conversions
   tf2_ros
+  zwind_msg
 )
 
 set(COMMON_DEPENDENCIES OpenMP::OpenMP_CXX)
@@ -201,6 +203,7 @@ ament_export_dependencies(
   pcl_ros
   pcl_conversions
   tf2_ros
+  zwind_msg
   Eigen3
   PCL
   OpenCV 

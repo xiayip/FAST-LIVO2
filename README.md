@@ -103,12 +103,6 @@ Thanks to the following repositories for the code reference:
 - [xuankuzcr/rpg_vikit](https://github.com/xuankuzcr/rpg_vikit)
 - [uavfly/vikit](https://github.com/uavfly/vikit)
 
-### 2.5 **livox_ros_driver2**
-
-Follow [livox_ros_driver2 Installation](https://github.com/Livox-SDK/livox_ros_driver2).
-
-why not use `livox_ros_driver`? Because it is not compatible with ROS2 directly. actually i am not think there s any difference between [livox ros driver](https://github.com/Livox-SDK/livox_ros_driver.git) and [livox ros driver2](https://github.com/Livox-SDK/livox_ros_driver2.git) 's `CustomMsg`, the latter 's ros2 version is sufficient.
-
 ## 3. Build
 
 Clone the repository and colcon build:
@@ -160,7 +154,7 @@ rosbag2_bagfile_information:
       offered_qos_profiles: ''
       serialization_format: cdr
 -     type: livox_ros_driver/msg/CustomMsg
-+     type: livox_ros_driver2/msg/CustomMsg
++     type: zwind_msg/msg/CustomMsg
       type_description_hash: RIHS01_94041b4794f52c1d81def2989107fc898a62dacb7a39d5dbe80d4b55e538bf6d
     ...............
 .....
