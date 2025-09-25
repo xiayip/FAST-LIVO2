@@ -165,7 +165,7 @@ rosbag2_bagfile_information:
 Do not forget to `source` your ROS2 workspace before running the following command.
 
 ```bash
-ros2 launch fast_livo mapping_aviz.launch.py use_rviz:=True
+ros2 launch fast_livo mapping_avia.launch.py use_rviz:=True
 ros2 bag play -p Retail_Street  # space bar controls play/pause
 ```
 
