@@ -154,7 +154,7 @@ rosbag2_bagfile_information:
       offered_qos_profiles: ''
       serialization_format: cdr
 -     type: livox_ros_driver/msg/CustomMsg
-+     type: zwind_msgs/msg/CustomMsg
++     type: zephyr_msgs/msg/CustomMsg
       type_description_hash: RIHS01_94041b4794f52c1d81def2989107fc898a62dacb7a39d5dbe80d4b55e538bf6d
     ...............
 .....
